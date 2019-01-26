@@ -45,10 +45,10 @@
     function getResult(){
       instance.getLastFlip(accounts[0], function(error, result){
         if(result){
-          $("#result").html("You won!");
+          $("#result").html("Voce venceu!");
         }
         else{
-          $("#result").html("You lost!");
+          $("#result").html("Voce perdeu!");
         }
       });
     }
@@ -61,7 +61,7 @@
         }
         else{
             waitForReceipt(txHash, function(receipt){
-              if(receipt.status === "0x1"){
+              if(receipt.status == "0x1"){
                 getResult();
                 getBalance();
               }

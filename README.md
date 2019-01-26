@@ -3,3 +3,5 @@ workshop-26-01-2019
 
 
 https://prezi.com/view/cl1wDWGPdzSsa1FXhgK9/
+
+https://t.me/gbbworkshop
